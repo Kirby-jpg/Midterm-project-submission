@@ -1,0 +1,105 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; /* Center the background image horizontally and vertically */
+    color: #fff;
+    text-align: center;
+    height: 100vh; /* Ensure body takes up the full viewport height */
+}
+
+h1 {
+    margin-top: 20vh; /* Adjust the margin-top to center the h1 vertically */
+    font-size: 3em;
+}
+
+nav {
+    margin-top: 10vh; /* Adjust the margin-top to center the navigation vertically */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #076aff; /* Change to Barcelona FC colors */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.about-us {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    margin: 50px auto; /* Center the section horizontally */
+    max-width: 800px; /* Limit the width of the section */
+    color: #000; /* Change text color to black for high contrast */
+}
+
+.about-us h2 {
+    color: #004d98; /* Barcelona FC's primary color */
+}
+
+.about-us p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Logo styles */
+header img {
+    width: 50px; /* Adjust the width of the logo as needed */
+    margin-bottom: 20px; /* Add space below the logo */
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #0077ff; /* Barcelona FC's secondary color */
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e65100; /* Darker orange on hover */
+}
+
+/* High contrast for buttons */
+.button.high-contrast {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+}
+
+.button.high-contrast:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text color on hover */
+}
+
